@@ -18,7 +18,7 @@
 
 ## How to build :
 
-Unlike the [older repo](https://github.com/Fizmath/Docker-opencv-GPU) there is no pre-built container in the DockerHub so you should build it in your local mcachine. Since it is a single arch build i.e sm_86, it builds faster about 15 minutes with 16 core CPU. Open your CMD in  the folder where you have the [Dockerfile](Dockerfile) then run this command :
+Unlike the [older repo](https://github.com/Fizmath/Docker-opencv-GPU) there is no pre-built container in the Docker Hub so you should build it in your local mcachine. Since it is a single arch build i.e sm_86, it builds faster about 15 minutes with 16 core CPU. Open your CMD in  the folder where you have the [Dockerfile](Dockerfile) then run this command :
 
 
 ```bash
