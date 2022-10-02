@@ -39,7 +39,7 @@ global /opt/opencv-4.6.0/modules/dnn/src/op_cuda.cpp (80)
  initCUDABackend CUDA backend will fallback to the CPU implementation for the layer "_input" of type __NetInputLayer__
 
 ```
-Check out the [source code ](https://github.com/opencv/opencv/blob/ 3eeec4faae0c8b020d0efd30a51c1e97a0f444a5/modules/dnn/src/dnn.cpp#L2854) for this error
+Check out the [source code ](https://github.com/opencv/opencv/blob/3eeec4faae0c8b020d0efd30a51c1e97a0f444a5/modules/dnn/src/dnn.cpp#L2854) for this error
 
 You can see this erro by typing `` export OPENCV_LOG_LEVEL=INFO `` in the container's shell .
 
