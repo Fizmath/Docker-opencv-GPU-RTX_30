@@ -8,7 +8,7 @@
 - GStreamer  1.16.3
 - FFMPEG
 - CUDA  11.7.0
-- NVIDIA GPU  Compute Capability:  sm_86 (  single arch  build ; the container wokrs with **NVIDIA Ampere GPUs** RTX 30 series.  For older GPUs see this repo)
+- NVIDIA GPU  Compute Capability:  sm_86 (  single arch  build ; the container wokrs with **NVIDIA Ampere GPUs** RTX 30 series.  For older GPUs see this [repo](https://github.com/Fizmath/Docker-opencv-GPU))
 - cuDNN:  8.5.0
 - OpenCL
 - Qt5::OpenGL  5.12.8
