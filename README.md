@@ -43,7 +43,7 @@ Check out the [source code ](https://github.com/opencv/opencv/blob/3eeec4faae0c8
 
 You can see this erro by typing `` export OPENCV_LOG_LEVEL=INFO `` in the container's shell .
 
-I also tried some of the newest models from [OpenCV Zoo](https://github.com/opencv/opencv_zoo). BUT, again got the same CUDA backend crashings.
+I also tried some of the newest models from [OpenCV Zoo](https://github.com/opencv/opencv_zoo). BUT! again, got the same CUDA backend crashings.
 
 
 That error crashes the inference with the GPU.  The reason behind this might be that  OpenCV DNN models are not compatile with the new **NVIDIA Ampere GPUs** architecture or some other issues  ...
